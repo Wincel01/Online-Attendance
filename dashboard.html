@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome, <span id="user-role"></span></h1>
+    <h2>Attendance</h2>
+    <form id="attendance-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required placeholder="Enter your name">
+      <button type="submit">Mark Attendance</button>
+    </form>
+    <h2>Attendance List</h2>
+    <ul id="attendance-list"></ul>
+    <a href="index.html">Logout</a>
+  </div>
+  <script src="dashboard.js"></script>
+</body>
+</html>
